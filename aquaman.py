@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#I am not sure where some of the process code came from mostly htb scanner code I found or was given credits to whoever wrote that
 
 import sys
 import time
@@ -52,8 +52,7 @@ class Customer_Scanner(object):
                 sys.stdout.write(out)
                 sys.stdout.flush()
 
-        # Getting discovered ports from the masscan output and sorting them
-        # results = re.findall('port (\d*)', output)
+        
         if output:
             print(output)
 
@@ -75,8 +74,7 @@ class Customer_Scanner(object):
                 sys.stdout.write(out)
                 sys.stdout.flush()
 
-        # Getting discovered ports from the masscan output and sorting them
-        # results = re.findall('port (\d*)', output)
+     
         if output:
             print(output)
 
@@ -99,8 +97,7 @@ class Customer_Scanner(object):
                 sys.stdout.write(out)
                 sys.stdout.flush()
 
-        # Getting discovered ports from the masscan output and sorting them
-        # results = re.findall('port (\d*)', output)
+        
         if output:
             print(output)
 
@@ -123,8 +120,6 @@ class Customer_Scanner(object):
                 sys.stdout.write(out)
                 sys.stdout.flush()
 
-        # Getting discovered ports from the masscan output and sorting them
-        #results = re.findall('port (\d*)', output)
         if output:
             print(output)
 
